@@ -3,6 +3,13 @@
 
 ### Features
 
+* action app installation token ([2180241](https://github.com/npalm/action-app-token/commit/2180241d506b27032efb0af11d66382b1a511938))
+
+## 1.0.0 (2021-02-27)
+
+
+### Features
+
 * action app installation token ([#1](https://github.com/npalm/action-app-token/issues/1)) ([8e9dcb3](https://github.com/npalm/action-app-token/commit/8e9dcb3550fefe352c33be2a2db36213604823d4))
 
 ### [1.0.12](https://github.com/npalm/action-app-token/compare/v1.0.11...v1.0.12) (2021-02-27)
