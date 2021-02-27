@@ -1,0 +1,27 @@
+name: 'App Token Action'
+description: 'Action to obtain GitHub installation token.'
+author: 'Niek Palm'
+branding:
+  color: red
+  icon: lock
+
+inputs:
+  appId:
+    required: true
+    description: 'App id of the app to use.'
+  appPrivateKeyBase64: 
+    required: true
+    description: 'Base64 encoded private key of the app.'
+  appInstallationType: 
+    required: true
+    description: 'Supported types are: org, user and repo'
+  appInstallationValue: 
+    required: true
+    description: 'Depending on the type provide name of org, user or repo slug (owner/repo)'
+outputs:
+  token:
+    description: GitHub app installation token
+
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
