@@ -1,3 +1,14 @@
+## [1.1.0](https://github.com/npalm/action-app-token/compare/v1.0.0...v1.1.0) (2022-10-26)
+
+
+### ⚠ BREAKING CHANGES
+
+* Updage node runtime to 16 and update dependencies (#2)
+
+### Features
+
+* Updage node runtime to 16 and update dependencies ([#2](https://github.com/npalm/action-app-token/issues/2)) ([73b963d](https://github.com/npalm/action-app-token/commit/73b963d8788b5052f0fb81dbe55f85e6fd82835d))
+
 ## 1.0.0 (2021-02-27)
 
 
