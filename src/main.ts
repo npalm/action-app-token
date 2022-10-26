@@ -16,8 +16,8 @@ async function run(): Promise<void> {
 
     core.setOutput('token', installationToken);
   } catch (error) {
-    core.debug(error);
-    core.setFailed(error.message);
+    core.debug((error as Error).message);
+    core.setFailed((error as Error).message);
   }
 }
 
