@@ -42,7 +42,7 @@ jobs:
         run: yarn build && yarn run package
 
       - name: Update docs
-        uses: npalm/action-docs-action@v1.3.0
+        uses: npalm/action-docs-action@v1.4.0
 
       - name: Get token
         uses: './'
